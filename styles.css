@@ -40,6 +40,19 @@ body {
     padding: 0 24px;
 }
 
+.navbar {
+    position: fixed; /* sticks to top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
 .hero {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/src/assets/dojo-hero.jpg');
@@ -377,4 +390,5 @@ ul {
     .specializations {
         grid-template-columns: 1fr;
     }
+
 }
