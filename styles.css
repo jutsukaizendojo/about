@@ -40,31 +40,6 @@ body {
     padding: 0 24px;
 }
 
-.navbar {
-    position: fixed; /* sticks to top */
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    font-family: Arial, sans-serif;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: #333;
-    margin-left: 20px;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.navbar a:hover {
-    color: #b50000; /* accent color for hover */
-}
-
 .hero {
     min-height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('/src/assets/dojo-hero.jpg');
@@ -138,7 +113,7 @@ body {
 }
 
 .section {
-    padding: 5rem 0;
+    padding: 1rem 0;
 }
 
 .section-header {
@@ -179,7 +154,7 @@ body {
 
 .card {
     background: hsl(var(--card));
-    padding: 2rem;
+    padding: 1rem;
     border-radius: var(--radius);
     box-shadow: var(--shadow-strong);
     transition: var(--transition-smooth);
@@ -402,6 +377,4 @@ ul {
     .specializations {
         grid-template-columns: 1fr;
     }
-
 }
-
